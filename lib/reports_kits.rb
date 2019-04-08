@@ -60,7 +60,7 @@ require 'reports_kits/reports/properties'
 require 'reports_kits/reports/properties_to_filter'
 require 'reports_kits/reports/series'
 
-class ReportsKits
+module ReportsKits
   def self.configure
     yield(configuration)
   end

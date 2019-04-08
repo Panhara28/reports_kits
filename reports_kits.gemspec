@@ -5,10 +5,10 @@ Gem::Specification.new do |s|
   s.email         = ["titpanhara@gmail.com"]
   s.summary       = 'Beautiful, interactive charts for Ruby on Rails'
   s.description   = 'ReportsKits lets you easily create beautiful charts with customizable, interactive filters.'
-  # s.homepage      = 'https://github.com/tombenner/reports_kit'
+  s.homepage      = 'https://github.com/Panhara28/reports_kits'
   s.name          = 'reports_kits'
   s.require_paths = ["lib"]
-  # s.files         = `git ls-files`.split($\)
+  s.files         = `git ls-files`.split($\)
   s.version       = ReportsKits::VERSION
   s.license       = 'MIT'
   s.add_runtime_dependency 'rails', '~> 5'
