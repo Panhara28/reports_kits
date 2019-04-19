@@ -1,6 +1,6 @@
 module ReportsKits
   class Cache
-    CACHE_PREFIX = 'reports_kit:reports:'
+    CACHE_PREFIX = 'reports_kits:reports:'
 
     def self.get(properties, context_record)
       return unless store
